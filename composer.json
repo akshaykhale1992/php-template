@@ -1,0 +1,28 @@
+{
+    "name": "akshaykhale/php-template",
+    "description": "A simple template to get started with a PHP Project.",
+    "type": "project",
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "katzgrau/klogger": "dev-master",
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ],
+        "psr-4": {
+            "Controllers\\": "controllers/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akshay Khale",
+            "email": "khaleakshay@gmail.com"
+        }
+    ]
+}
