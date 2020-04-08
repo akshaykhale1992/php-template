@@ -25,9 +25,9 @@ A simple PHP Template Project with boilerplate code to start with
     - Router used in the Application.
 
 # How to get started :rocket:
-    composer install // Installing dependencies
-    cp ./.env.example ./.env // Creating environment file
-    cd ./public && php -S localhost:8001 //Hosting the application on port 8001
+    composer install # Installing dependencies
+    cp ./.env.example ./.env # Creating environment file
+    cd ./public && php -S localhost:8001 # Hosting the application on port 8001
 
 Visit: [http://localhost:8001](http://localhost:8001) to se it in action.
 
